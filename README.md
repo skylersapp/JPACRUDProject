@@ -22,7 +22,6 @@ You'll push your project to a Github repo named JPACRUDProject. Be sure to inclu
   * Use of SQL and MySQL
   * Understanding Database Accessor Objects
   * HTML
-  * CSS
   * Use of .jsp
   * Use of .xml
   * Use of Maven and Dependencies
