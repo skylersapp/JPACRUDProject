@@ -14,19 +14,19 @@
 
 <form action= "update.do" method="POST">
 
-	<input type="hidden" name="macbookId" value="${macbook.id}"/>
+	<input type="hidden" name="macbookId" value="${macbook.id}" />
 	
 	<label for="name">Name</label>
 		<input type= "text" name="name" value= "${macbook.screenSize}" required><br>
 		
 	<label for="description">Description</label>
-		<input type= "text" name="description"value= "${macbook.hdCapacity}"><br>
-		
+		<input type= "text" name="description"value= "${macbook.hdCapacity}" required><br>
+		 
  	<label for="category">Category</label>
-		<input type= "text" name="category"value= "${macbook.color}"><br>
+		<input type= "text" name="category"value= "${macbook.color}" required><br>
 		
 	<label for="calories">Calories</label>
-		<input type= "text" name="calories" value= "${macbook.year}"><br>
+		<input type= "text" name="calories" value= "${macbook.year}" required><br>
 		
 	<input type="submit" name="submit" value="submit"/>
 		

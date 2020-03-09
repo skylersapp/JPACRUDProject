@@ -42,3 +42,23 @@ You'll push your project to a Github repo named JPACRUDProject. Be sure to inclu
   <br>
   ![Alt Text](https://really-simple-ssl.com/wp-content/uploads/2017/07/icon-mamppro.png)
   ![Alt Text](https://secure.meetupstatic.com/photos/event/c/0/a/e/600_460069326.jpeg)
+
+## Challenges
+
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+• I struggled with the error I was getting saying:
+
+     java.sql.SQLSyntaxErrorException: Access denied for user 'macuser'@'%' to database 'macuser'
+
+I rebuilt my database 3 times trying to figure out what was going wrong. I ensured the login information was correct and made sure everything was in the persistence.xml properly. Nothing I did seemed to work. I continued building the application regardless of the error, but I unfortunately never could get it working correctly
+
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+• The other issue I had was my computer, multiple times, kept deleting my files. I was receiving the message in the image below every 2-3 minutes whether I was actively doing things or not.
+
+![Alt Text](https://i.imgur.com/S46rHRO.jpg)
+
+It would delete my files when I would click on them once this popped up a few times. I ended up having to restart the project from scratch 6 times AND had to backup my computer to an older SSD image before it finally stopped giving me the error. All of this was incredibly infuriating and it was exacerbated by the fact I seemed unable to find any assistance at all online.
+
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––

@@ -21,7 +21,7 @@
 		<input type= "text" name="screenSize"><br><br>
 		
 	<label for="hdCapacity">Hard Drive Capacity</label>
-		<input type= "text" name="hdCapacity"><br><br>
+		<input type= "text" name="hdCapacity" ><br><br>
 		
  	<label for="color">Color</label>
 		<input type= "text" name="color"><br><br>
