@@ -36,10 +36,9 @@ You'll push your project to a Github repo named JPACRUDProject. Be sure to inclu
   ![Alt Text](https://media.trustradius.com/product-logos/HK/19/A1STBOL3HJCR-180x180.JPEG)
   <br>
   ![Alt Text](http://ifixit.ie/wp-content/uploads/2015/02/Apple-logo-180x180.png)
-  ![Alt Text](http://web.corballis.ie/technology_logos/mysql-logo-180x180.png)
+  ![Alt Text](https://media.trustradius.com/product-logos/QY/QH/HFBO8T3NTXUM-180x180.PNG)
   ![Alt Text](https://careers.google.com/jobs/dist/img/meta/careers_apple-touch-icon-180x180.a4632facecb104f3a686.png)
   ![Alt Text](http://www.pngall.com/wp-content/uploads/2016/04/Github-Free-PNG-Image.png)
   <br>
   ![Alt Text](https://really-simple-ssl.com/wp-content/uploads/2017/07/icon-mamppro.png)
   ![Alt Text](https://secure.meetupstatic.com/photos/event/c/0/a/e/600_460069326.jpeg)
-## Lessons Learned
