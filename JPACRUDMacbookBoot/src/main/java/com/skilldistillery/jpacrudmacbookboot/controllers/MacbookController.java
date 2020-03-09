@@ -43,7 +43,7 @@ public class MacbookController {
 	}
 
 	@RequestMapping(path = "create.do", method = RequestMethod.GET)
-	public String createSnack() {
+	public String createMacbook() {
 		return "create";
 	}
 
