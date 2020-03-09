@@ -5,22 +5,22 @@ SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION';
 
 -- -----------------------------------------------------
--- Schema JPACRUDProject
+-- Schema Macuser
 -- -----------------------------------------------------
-DROP SCHEMA IF EXISTS `JPACRUDProject` ;
+DROP SCHEMA IF EXISTS `Macuser` ;
 
 -- -----------------------------------------------------
--- Schema JPACRUDProject
+-- Schema Macuser
 -- -----------------------------------------------------
-CREATE SCHEMA IF NOT EXISTS `JPACRUDProject` DEFAULT CHARACTER SET utf8 ;
-USE `JPACRUDProject` ;
+CREATE SCHEMA IF NOT EXISTS `Macuser` DEFAULT CHARACTER SET utf8 ;
+USE `Macuser` ;
 
 -- -----------------------------------------------------
--- Table `MacUser`
+-- Table `table1`
 -- -----------------------------------------------------
-DROP TABLE IF EXISTS `MacUser` ;
+DROP TABLE IF EXISTS `table1` ;
 
-CREATE TABLE IF NOT EXISTS `MacUser` (
+CREATE TABLE IF NOT EXISTS `table1` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `screen_size` INT NULL,
   `hd_capacity` INT NULL,
@@ -39,13 +39,3 @@ GRANT SELECT, INSERT, TRIGGER, UPDATE, DELETE ON TABLE * TO 'macuser';
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
-
--- -----------------------------------------------------
--- Data for table `MacUser`
--- -----------------------------------------------------
-START TRANSACTION;
-USE `JPACRUDProject`;
-INSERT INTO `MacUser` (`id`, `screen_size`, `hd_capacity`, `color`, `year`) VALUES (1, 13, 256, 'silver', 2019);
-
-COMMIT;
-
